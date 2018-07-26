@@ -1,0 +1,72 @@
+.coverpage {
+  padding:20px;
+  background-color:#E71935;
+  text-align:center;
+  margin-left:-15px;
+  margin-right:-15px;
+  position:relative;
+  margin-bottom:20px;
+}
+
+@media (min-width: 576px) {
+  .coverpage {
+    border-radius:20px;
+    margin-top:70px;
+    margin-bottom:30px;
+  }
+}
+
+.coverpage:after {
+  content:"";
+  background-position:top;
+  background-size:cover;
+  opacity:0.1;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  position:absolute;
+  z-index:0;
+  background-image:url("../../assets/img/873163ea39b6336aaccd7bd8d407e3aa.602x602x1-300x300.jpg");
+  background-repeat:no-repeat;
+  filter:blur(5px);
+}
+
+.coverpage-avatar {
+  border-radius:100%;
+  border:5px solid #fff;
+  width:110px;
+  margin-top:10px;
+  position:relative;
+  z-index:999;
+}
+
+.coverpage-title {
+  color:#fff;
+  margin-top:20px;
+  margin-bottom:0;
+  position:relative;
+  z-index:999;
+}
+
+.coverpage-subtitle {
+  color:#fff;
+  margin-bottom:10px;
+  position:relative;
+  z-index:999;
+}
+
+@media (min-width: 768px) {
+  .coverpage-subtitle {
+    font-size:20px;
+  }
+}
+
+@media (min-width: 576px) {
+  .coverpage-avatar {
+    width:140px;
+    margin-top:-90px;
+    height:140px;
+  }
+}
+
